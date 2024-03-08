@@ -1,0 +1,39 @@
+# Ignore Visual Studio temporary files, directories, and files
+.vscode/
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.dll
+*.exe
+
+# Ignore Rider specific files
+.idea/
+
+# Ignore NuGet packages
+*.nuget.props
+*.paket.props
+*.paket.targets
+packages/
+*.nupkg
+!.gitkeep
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore Rider, Visual Studio Code, and Visual Studio folders
+.idea/
+.vscode/
+.vs/
+
+# Ignore build output, packages, and deploy folders
+/bin/
+/obj/
+/packages/
